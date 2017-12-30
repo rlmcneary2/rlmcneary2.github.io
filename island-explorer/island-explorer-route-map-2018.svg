@@ -30,11 +30,11 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="0.11997095"
+     inkscape:zoom="0.33932909"
      inkscape:cx="2660"
-     inkscape:cy="3442.5"
+     inkscape:cy="6975.612"
      inkscape:document-units="px"
-     inkscape:current-layer="layer1"
+     inkscape:current-layer="layer16"
      showgrid="false"
      units="px"
      inkscape:window-width="1920"
@@ -3035,17 +3035,6 @@
        height="566.80389"
        x="-1990"
        y="-2745" />
-    <text
-       xml:space="preserve"
-       style="font-style:normal;font-weight:normal;font-size:40px;line-height:125%;font-family:Sans;letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       x="-1321.1635"
-       y="-2392.4575"
-       id="text4885"><tspan
-         sodipodi:role="line"
-         id="tspan4883"
-         x="-1321.1635"
-         y="-2392.4575"
-         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:266.66665649px;font-family:Arial;-inkscape-font-specification:'Arial Bold';fill:#ffffff;fill-opacity:1">Island Explorer route map</tspan></text>
     <rect
        style="opacity:1;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:22.61580467;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        id="rect4891"
@@ -3064,6 +3053,32 @@
          x="2770.8933"
          y="-2390.9927"
          style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:200px;font-family:Arial;-inkscape-font-specification:'Arial Bold';fill:#000000;fill-opacity:1">2018</tspan></text>
+    <g
+       id="g1973"
+       transform="translate(0,13.324917)">
+      <text
+         id="text4885"
+         y="-2468.1309"
+         x="-1321.1635"
+         style="font-style:normal;font-weight:normal;font-size:40px;line-height:125%;font-family:Sans;letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         xml:space="preserve"><tspan
+           style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:266.66665649px;font-family:Arial;-inkscape-font-specification:'Arial Bold';fill:#ffffff;fill-opacity:1"
+           y="-2468.1309"
+           x="-1321.1635"
+           id="tspan4883"
+           sodipodi:role="line">Island Explorer route map</tspan></text>
+      <text
+         id="text4885-2"
+         y="-2312.0276"
+         x="362.24792"
+         style="font-style:normal;font-weight:normal;font-size:40px;line-height:125%;font-family:Sans;letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         xml:space="preserve"><tspan
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:106.66666412px;font-family:Arial;-inkscape-font-specification:Arial;fill:#ffffff;fill-opacity:1"
+           y="-2312.0276"
+           x="362.24792"
+           id="tspan4883-1"
+           sodipodi:role="line">http://limnous.com/island-explorer</tspan></text>
+    </g>
   </g>
   <g
      inkscape:groupmode="layer"
