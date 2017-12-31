@@ -30,9 +30,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="0.33932909"
+     inkscape:zoom="0.11997095"
      inkscape:cx="2660"
-     inkscape:cy="6975.612"
+     inkscape:cy="3442.5"
      inkscape:document-units="px"
      inkscape:current-layer="layer16"
      showgrid="false"
@@ -344,6 +344,7 @@
             <dc:title>Copyright 2017 Richard L. McNeary II</dc:title>
           </cc:Agent>
         </dc:rights>
+        <dc:description>8.5 x 11: Display units = &quot;in&quot;, Scale = &quot;625&quot;</dc:description>
       </cc:Work>
       <cc:License
          rdf:about="http://creativecommons.org/licenses/by-sa/4.0/">
