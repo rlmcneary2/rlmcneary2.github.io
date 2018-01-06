@@ -1,0 +1,51 @@
+p {
+    margin: auto 0 auto 0;
+}
+
+.display {
+    bottom: 0;
+    display: flex;
+    flex-direction: column;
+    left: 0;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+.content {
+    margin: 0 auto;
+    max-width: 800px;
+    position: relative;
+}
+
+.license {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+
+.license img {
+    margin-right: 20px;
+}
+
+.map-section {
+    background-color: darkgray;
+    flex: 1;
+    position: relative;
+}
+
+.map-container {
+    bottom: 0;
+    display: flex;
+    left: 0;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+.map {
+    flex: 1;
+    max-height: 100%;
+    max-width: 100%;
+}
