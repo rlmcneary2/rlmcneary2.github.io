@@ -31,10 +31,10 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="0.11997095"
-     inkscape:cx="2660"
-     inkscape:cy="3442.5"
+     inkscape:cx="2111.6384"
+     inkscape:cy="1747.5712"
      inkscape:document-units="px"
-     inkscape:current-layer="layer16"
+     inkscape:current-layer="layer6"
      showgrid="false"
      units="px"
      inkscape:window-width="1920"
@@ -57,8 +57,8 @@
      showguides="false"
      inkscape:guide-bbox="true"
      inkscape:bbox-nodes="false"
-     inkscape:snap-bbox-midpoints="false"
-     inkscape:snap-bbox-edge-midpoints="false"
+     inkscape:snap-bbox-midpoints="true"
+     inkscape:snap-bbox-edge-midpoints="true"
      inkscape:bbox-paths="false"
      inkscape:snap-smooth-nodes="false"
      fit-margin-top="0"
@@ -256,11 +256,6 @@
        id="guide1318"
        inkscape:locked="false" />
     <sodipodi:guide
-       position="2003.975,4518.0351"
-       orientation="1,0"
-       id="guide1330"
-       inkscape:locked="false" />
-    <sodipodi:guide
        position="4765,3221.5526"
        orientation="1,0"
        id="guide1351"
@@ -314,6 +309,21 @@
        position="1104.3167,6064.9088"
        orientation="0,1"
        id="guide4915"
+       inkscape:locked="false" />
+    <sodipodi:guide
+       position="1815.1218,1642.8877"
+       orientation="1,0"
+       id="guide1363"
+       inkscape:locked="false" />
+    <sodipodi:guide
+       position="2116.3257,1816.0836"
+       orientation="1,0"
+       id="guide1382"
+       inkscape:locked="false" />
+    <sodipodi:guide
+       position="2012.0586,1692.8877"
+       orientation="0,1"
+       id="guide1385"
        inkscape:locked="false" />
   </sodipodi:namedview>
   <metadata
@@ -467,10 +477,10 @@
      transform="translate(1990,2745)">
     <path
        style="fill:none;fill-rule:evenodd;stroke:#0aaeed;stroke-width:50px;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-       d="M 1945,622 H 650.1203 c -64.73842,0 -83.58569,8.5857 -128.5915,53.5915 l -30.40966,30.4097 c -41.132,40.5616 -64.18922,40.8355 -104.70704,-0.6424 L 305.2429,625.0534 C 258.84453,578.655 240.26766,572 177.1895,572 h -50.8638 v 1925.1123"
+       d="M 1945,622 H 650.1203 c -64.73842,0 -83.58569,8.5857 -128.5915,53.5915 l -30.40966,30.4097 c -41.132,40.5616 -64.18922,40.8355 -104.70704,-0.6424 L 305.2429,625.0534 C 258.84453,578.655 240.26766,572 177.1895,572 h -50.8638 l 0,1799.805 c 0,40.1308 -37.574144,75.3073 -75.533963,75.3073 l -225.669937,0"
        id="path4993"
        inkscape:connector-curvature="0"
-       sodipodi:nodetypes="ccccccccc" />
+       sodipodi:nodetypes="ccccccccccc" />
     <rect
        style="display:inline;opacity:1;fill:#0aaeed;fill-opacity:1;stroke:none;stroke-width:18.17127609;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        id="rect6986-4-1-9-9"
@@ -2173,17 +2183,9 @@
            id="tspan1653-25-4-1-9"
            sodipodi:role="line">Harbor</tspan></text>
     </g>
-    <rect
-       style="display:inline;opacity:1;fill:#9180e7;fill-opacity:1;stroke:none;stroke-width:25.6980648;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-       id="rect6986-4-1-9-9-2-9"
-       width="120"
-       height="36.923077"
-       x="2437.1123"
-       y="156.41666"
-       transform="rotate(90)" />
     <g
        id="g2557"
-       transform="translate(-475.52258,-994.9527)">
+       transform="translate(-569.52258,-1019.3255)">
       <text
          id="text1651-9-45-6-3"
          y="3445.8784"
@@ -2218,6 +2220,14 @@
            id="tspan1653-25-1-6-1-9"
            sodipodi:role="line">Pier</tspan></text>
     </g>
+    <rect
+       style="display:inline;opacity:1;fill:#9180e7;fill-opacity:1;stroke:none;stroke-width:18.17127609;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="rect6986-4-1-9-9-2-6"
+       width="60"
+       height="36.923077"
+       x="2497.1123"
+       y="-144.78723"
+       transform="rotate(90)" />
   </g>
   <g
      inkscape:groupmode="layer"
@@ -2509,8 +2519,8 @@
     <circle
        style="display:inline;opacity:1;fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:25px;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        id="path5543-7-40-7-6"
-       cx="126.3257"
-       cy="2497.1123"
+       cx="-174.8782"
+       cy="2472.7395"
        r="62.5">
       <desc
          id="desc3615">station</desc>
@@ -3100,8 +3110,8 @@
        id="rect6969"
        width="50"
        height="50"
-       x="3951.4539"
-       y="250.00818" />
+       x="3930.354"
+       y="407.00708" />
     <rect
        style="opacity:1;fill:#73ccfa;fill-opacity:1;stroke:none;stroke-width:16;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        id="rect6969-0"
@@ -3129,8 +3139,8 @@
     <circle
        style="display:inline;opacity:1;fill:#ff0000;fill-opacity:0.70588235;stroke:#ff0000;stroke-width:0.99337751;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        id="path5543-7-40-2-2-9-5"
-       cx="3603.9331"
-       cy="-174.57817"
+       cx="4102.2881"
+       cy="830"
        r="74.503311">
       <desc
          id="desc2659-6">station</desc>
