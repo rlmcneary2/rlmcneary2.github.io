@@ -30,22 +30,21 @@ p {
 }
 
 .map-section {
+    align-items: center;
     background-color: darkgray;
+    display: flex;
     flex: 1;
-    position: relative;
+    flex-direction: column;
 }
 
 .map-container {
-    bottom: 0;
     display: flex;
-    left: 0;
-    position: absolute;
-    right: 0;
-    top: 0;
+    flex-direction: column;
+    max-width: 100%;
+    width: 550px;
 }
 
 .map {
     flex: 1;
-    max-height: 100%;
-    max-width: 100%;
+    width: 100%;
 }
