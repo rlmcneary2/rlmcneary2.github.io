@@ -175,6 +175,10 @@ span.icon {
     margin: -5px 0 2px 0;
 }
 
+main.content {
+    display: block;
+}
+
 .footer {
     display: flex;
     justify-content: center;
