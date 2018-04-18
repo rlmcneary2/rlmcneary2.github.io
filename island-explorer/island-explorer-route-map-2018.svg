@@ -30,11 +30,11 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="0.20674957"
-     inkscape:cx="2642.0664"
-     inkscape:cy="3462.8597"
+     inkscape:zoom="0.5847761"
+     inkscape:cx="3202.7278"
+     inkscape:cy="3843.4604"
      inkscape:document-units="px"
-     inkscape:current-layer="layer6"
+     inkscape:current-layer="layer9"
      showgrid="false"
      units="px"
      inkscape:window-width="1920"
@@ -734,9 +734,9 @@
     <path
        id="path4979"
        style="fill:none;fill-rule:evenodd;stroke:#539fb2;stroke-width:50px;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-       d="m 902.97925,-326.84125 -51.80193,51.80193 C 822.19166,-246.05366 820,-234.33961 820,-195.38716 c 0.0109,52.27014 0,282.87738 0,346.50826 V 347 c 0,39.13644 39.0773,75 75,75 h 942.4819 m -492.9786,0 C 1306.1545,422 1270,385.71514 1270,347.49669 V 150.03811 C 1270,75.534798 1270,75.5348 1216.5744,22.695219 1185.5038,-8.0345742 958.05041,-236.29171 885.3016,-309.1636"
+       d="m 902.97925,-326.84125 -51.80193,51.80193 C 822.19166,-246.05366 820,-234.33961 820,-195.38716 c 0.0109,52.27014 0,282.87738 0,346.50826 V 347 c 0,39.13644 39.0773,75 75,75 h 942.4819 m -492.9786,0 C 1306.1545,422 1270,385.71514 1270,347.49669 V 150.03811 C 1270,75.534798 1270,75.5348 1216.5744,22.695219 1206.88,12.414762 906.7783,-287.6869 885.3016,-309.1636"
        inkscape:connector-curvature="0"
-       sodipodi:nodetypes="cccccccccssc" />
+       sodipodi:nodetypes="cccccccccscc" />
     <path
        style="display:inline;fill:none;fill-rule:evenodd;stroke:#e9fee1;stroke-width:20;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        d="m 1373.3291,279.82504 v -100 h 50 50"
@@ -755,14 +755,6 @@
       <desc
          id="desc1619">one-way arrow</desc>
     </path>
-    <rect
-       style="display:inline;opacity:1;fill:#539fb2;fill-opacity:1;stroke:none;stroke-width:25.6980648;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-       id="rect6986-4-1-9-9-2-9-6-1-8-9"
-       width="120"
-       height="36.923077"
-       x="-904.44122"
-       y="-609.43793"
-       transform="rotate(135)" />
     <rect
        style="display:inline;opacity:1;fill:#539fb2;fill-opacity:1;stroke:none;stroke-width:18.17127609;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        id="rect6986-4-1-9-9-4-9-8-1-3-3-3-6"
@@ -1041,6 +1033,14 @@
       <desc
          id="desc1619-6-0-5">one-way arrow</desc>
     </path>
+    <rect
+       style="display:inline;opacity:1;fill:#539fb2;fill-opacity:1;stroke:none;stroke-width:18.17127609;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="rect6986-4-1-9-9-4-9-8-1-3-3-3-6-0-6"
+       width="60"
+       height="36.923077"
+       x="-844.44122"
+       y="-609.43793"
+       transform="rotate(135)" />
   </g>
   <g
      inkscape:groupmode="layer"
