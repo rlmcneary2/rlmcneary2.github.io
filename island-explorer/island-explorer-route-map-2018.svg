@@ -60,10 +60,10 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="0.11997095"
-     inkscape:cx="2660"
-     inkscape:cy="3442.5"
+     inkscape:cx="2858.9993"
+     inkscape:cy="2726.3364"
      inkscape:document-units="px"
-     inkscape:current-layer="layer6"
+     inkscape:current-layer="layer16"
      showgrid="false"
      units="px"
      inkscape:window-width="1920"
@@ -88,8 +88,8 @@
      inkscape:bbox-nodes="false"
      inkscape:snap-bbox-midpoints="true"
      inkscape:snap-bbox-edge-midpoints="true"
-     inkscape:bbox-paths="false"
-     inkscape:snap-smooth-nodes="false"
+     inkscape:bbox-paths="true"
+     inkscape:snap-smooth-nodes="true"
      fit-margin-top="0"
      fit-margin-left="0"
      fit-margin-right="0"
@@ -315,7 +315,7 @@
        id="guide1363"
        inkscape:locked="false" />
     <sodipodi:guide
-       position="2116.3257,1816.0836"
+       position="2423.5033,373.70473"
        orientation="1,0"
        id="guide1382"
        inkscape:locked="false" />
@@ -2702,270 +2702,272 @@
            id="tspan4883-1"
            sodipodi:role="line">http://limnous.com/island-explorer</tspan></text>
     </g>
-    <rect
-       style="opacity:1;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:14.04653358;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-       id="rect4408"
-       width="993.79053"
-       height="822.21075"
-       x="1032.5304"
-       y="3106.7905" />
     <g
-       id="g5471"
-       transform="translate(-60.000004,-72.00004)">
-      <g
-         id="g4605-9"
-         transform="translate(255.44965,3879.8029)">
-        <rect
-           style="opacity:1;fill:#539fb2;fill-opacity:1;stroke:none;stroke-width:13.31731796;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-           id="rect2925-33-38-9"
-           width="60"
-           height="60"
-           x="902.47833"
-           y="-551.42688" />
-        <text
-           xml:space="preserve"
-           style="font-style:normal;font-weight:normal;font-size:40px;line-height:125%;font-family:Sans;letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-           x="906.66455"
-           y="-496.61179"
-           id="text3155-6"><tspan
-             sodipodi:role="line"
-             id="tspan3153-2"
-             x="906.66455"
-             y="-496.61179"
-             style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:69.33333588px;font-family:Arial;-inkscape-font-specification:'Arial Bold';fill:#ffffff;fill-opacity:1">C</tspan></text>
-      </g>
-      <text
-         id="text1651-9-45-8-1-0-8-7-0-0-3-3-2-6-7"
-         y="3376.0974"
-         x="1233.0452"
-         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:74.66666412px;line-height:125%;font-family:Arial;-inkscape-font-specification:'Arial Bold';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-         xml:space="preserve"><tspan
-           style="font-size:66.66666412px"
-           y="3376.0974"
-           x="1233.0452"
-           id="tspan1649-0-3-3-95-9-0-1-4-2-4-7-5-2-7"
-           sodipodi:role="line">Regency</tspan></text>
-    </g>
-    <g
-       id="g5494"
-       transform="translate(0,14.814657)">
-      <g
-         id="g4629-5"
-         transform="translate(-37.253412,3878.293)">
-        <rect
-           style="opacity:1;fill:#539fb2;fill-opacity:1;stroke:none;stroke-width:13.31731796;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-           id="rect2925-33-2-07"
-           width="60"
-           height="60"
-           x="1135.1814"
-           y="-244.63562" />
-        <text
-           xml:space="preserve"
-           style="font-style:normal;font-weight:normal;font-size:40px;line-height:125%;font-family:Sans;letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-           x="1138.6566"
-           y="-189.82051"
-           id="text3155-2-4"><tspan
-             sodipodi:role="line"
-             id="tspan3153-0-96"
-             x="1138.6566"
-             y="-189.82051"
-             style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:69.33333588px;font-family:Arial;-inkscape-font-specification:'Arial Bold';fill:#ffffff;fill-opacity:1">F</tspan></text>
-      </g>
-      <text
-         id="text1651-9-45-8-1-0-8-7-0-0-3-3-2-6-7-1-2-4"
-         y="3681.3789"
-         x="1177.928"
-         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:74.66666412px;line-height:125%;font-family:Arial;-inkscape-font-specification:'Arial Bold';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-         xml:space="preserve"><tspan
-           style="font-size:66.66666412px"
-           y="3681.3789"
-           x="1177.928"
-           id="tspan1649-0-3-3-95-9-0-1-4-2-4-7-5-2-7-1-9-1"
-           sodipodi:role="line">Atlantic Eyrie Lodge</tspan></text>
-    </g>
-    <g
-       id="g5510"
-       transform="translate(0,14.000013)">
-      <g
-         id="g4637-0"
-         transform="translate(-37.253412,3942.7857)">
-        <rect
-           style="opacity:1;fill:#539fb2;fill-opacity:1;stroke:none;stroke-width:13.31731796;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-           id="rect2925-33-3-4"
-           width="60"
-           height="60"
-           x="1135.1814"
-           y="-124.73939" />
-        <text
-           xml:space="preserve"
-           style="font-style:normal;font-weight:normal;font-size:40px;line-height:125%;font-family:Sans;letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-           x="1140.2648"
-           y="-69.924286"
-           id="text3155-3-9"><tspan
-             sodipodi:role="line"
-             id="tspan3153-6-16"
-             x="1140.2648"
-             y="-69.924286"
-             style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:69.33333588px;font-family:Arial;-inkscape-font-specification:'Arial Bold';fill:#ffffff;fill-opacity:1">H</tspan></text>
-      </g>
-      <text
-         id="text1651-9-45-8-1-0-8-7-0-0-3-3-2-6-7-1-2-4-1"
-         y="3865.7676"
-         x="1177.7002"
-         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:74.66666412px;line-height:125%;font-family:Arial;-inkscape-font-specification:'Arial Bold';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-         xml:space="preserve"><tspan
-           style="font-size:66.66666412px"
-           y="3865.7676"
-           x="1177.7002"
-           id="tspan1649-0-3-3-95-9-0-1-4-2-4-7-5-2-7-1-9-1-8"
-           sodipodi:role="line">Wonder View Inn</tspan></text>
-    </g>
-    <rect
-       style="opacity:1;fill:#539fb2;fill-opacity:1;stroke:none;stroke-width:18.29117012;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-       id="rect4871"
-       width="993.79053"
-       height="129.90851"
-       x="1032.5304"
-       y="3106.7905" />
-    <text
-       xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:74.66666412px;line-height:125%;font-family:Arial;-inkscape-font-specification:'Arial Bold';letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       x="1131.1868"
-       y="3196.5137"
-       id="text1651-9-45-8-1-0-8-5"><tspan
-         sodipodi:role="line"
-         id="tspan1649-0-3-3-95-9-0-14"
-         x="1131.1868"
-         y="3196.5137"
-         style="font-size:93.33333588px;fill:#ffffff;fill-opacity:1">Eden Street stops</tspan></text>
-    <g
-       id="g5502"
-       transform="translate(0,14.407339)">
-      <g
-         id="g4637-0-4"
-         transform="translate(-37.253412,3851.0309)">
-        <rect
-           style="opacity:1;fill:#539fb2;fill-opacity:1;stroke:none;stroke-width:13.31731796;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-           id="rect2925-33-3-4-5"
-           width="60"
-           height="60"
-           x="1135.1814"
-           y="-124.73939" />
-        <text
-           xml:space="preserve"
-           style="font-style:normal;font-weight:normal;font-size:40px;line-height:125%;font-family:Sans;letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-           x="1140.2648"
-           y="-69.924286"
-           id="text3155-3-9-0"><tspan
-             sodipodi:role="line"
-             id="tspan3153-6-16-8"
-             x="1140.2648"
-             y="-69.924286"
-             style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:69.33333588px;font-family:Arial;-inkscape-font-specification:'Arial Bold';fill:#ffffff;fill-opacity:1">G</tspan></text>
-      </g>
-      <text
-         id="text1651-9-45-8-1-0-8-7-0-0-3-3-2-6-7-1-2-4-1-4"
-         y="3774.0127"
-         x="1177.7002"
-         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:74.66666412px;line-height:125%;font-family:Arial;-inkscape-font-specification:'Arial Bold';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-         xml:space="preserve"><tspan
-           style="font-size:66.66666412px"
-           y="3774.0127"
-           x="1177.7002"
-           id="tspan1649-0-3-3-95-9-0-1-4-2-4-7-5-2-7-1-9-1-8-8"
-           sodipodi:role="line">Hampton Inn Bar Harbor</tspan></text>
-    </g>
-    <g
-       id="g5542"
-       transform="translate(0,20.61615)">
+       id="g5903">
       <rect
-         y="3327.9863"
-         x="1097.928"
-         height="60"
-         width="60"
-         id="rect2925-33-29-6"
-         style="opacity:1;fill:#539fb2;fill-opacity:1;stroke:none;stroke-width:13.31731796;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
-      <text
-         id="text3155-1-1"
-         y="3382.8013"
-         x="1103.0282"
-         style="font-style:normal;font-weight:normal;font-size:40px;line-height:125%;font-family:Sans;letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-         xml:space="preserve"><tspan
-           style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:69.33333588px;font-family:Arial;-inkscape-font-specification:'Arial Bold';fill:#ffffff;fill-opacity:1"
-           y="3382.8013"
-           x="1103.0282"
-           id="tspan3153-58-2"
-           sodipodi:role="line">D</tspan></text>
-      <text
-         id="text1651-9-45-8-1-0-8-7-0-0-3-3-2-6"
-         y="3376.5215"
-         x="1177.928"
-         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:74.66666412px;line-height:125%;font-family:Arial;-inkscape-font-specification:'Arial Bold';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-         xml:space="preserve"><tspan
-           style="font-size:66.66666412px"
-           y="3376.5215"
-           x="1177.928"
-           id="tspan1649-0-3-3-95-9-0-1-4-2-4-7-5-2"
-           sodipodi:role="line">Atlantic Oceanside</tspan></text>
-      <text
-         id="text1651-9-45-8-1-0-8-7-0-0-3-3-2-6-4"
-         y="3439.8704"
-         x="1173.0452"
-         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:74.66666412px;line-height:125%;font-family:Arial;-inkscape-font-specification:'Arial Bold';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-         xml:space="preserve"><tspan
-           style="font-size:66.66666412px"
-           y="3439.8704"
-           x="1173.0452"
-           id="tspan1649-0-3-3-95-9-0-1-4-2-4-7-5-2-6"
-           sodipodi:role="line">Bar Harbor Motel</tspan></text>
-    </g>
-    <g
-       id="g5594"
-       transform="translate(0,-2.4000035)">
+         y="3106.7905"
+         x="1032.5304"
+         height="822.21075"
+         width="993.79053"
+         id="rect4408"
+         style="opacity:1;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:14.04653358;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
       <g
-         id="g4621-2"
-         transform="translate(-19.002312,3831.118)">
+         transform="translate(-60.000004,-72.00004)"
+         id="g5471">
+        <g
+           transform="translate(255.44965,3879.8029)"
+           id="g4605-9">
+          <rect
+             y="-551.42688"
+             x="902.47833"
+             height="60"
+             width="60"
+             id="rect2925-33-38-9"
+             style="opacity:1;fill:#539fb2;fill-opacity:1;stroke:none;stroke-width:13.31731796;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+          <text
+             id="text3155-6"
+             y="-496.61179"
+             x="906.66455"
+             style="font-style:normal;font-weight:normal;font-size:40px;line-height:125%;font-family:Sans;letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+             xml:space="preserve"><tspan
+               style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:69.33333588px;font-family:Arial;-inkscape-font-specification:'Arial Bold';fill:#ffffff;fill-opacity:1"
+               y="-496.61179"
+               x="906.66455"
+               id="tspan3153-2"
+               sodipodi:role="line">C</tspan></text>
+        </g>
+        <text
+           xml:space="preserve"
+           style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:74.66666412px;line-height:125%;font-family:Arial;-inkscape-font-specification:'Arial Bold';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+           x="1233.0452"
+           y="3376.0974"
+           id="text1651-9-45-8-1-0-8-7-0-0-3-3-2-6-7"><tspan
+             sodipodi:role="line"
+             id="tspan1649-0-3-3-95-9-0-1-4-2-4-7-5-2-7"
+             x="1233.0452"
+             y="3376.0974"
+             style="font-size:66.66666412px">Regency</tspan></text>
+      </g>
+      <g
+         transform="translate(0,14.814657)"
+         id="g5494">
+        <g
+           transform="translate(-37.253412,3878.293)"
+           id="g4629-5">
+          <rect
+             y="-244.63562"
+             x="1135.1814"
+             height="60"
+             width="60"
+             id="rect2925-33-2-07"
+             style="opacity:1;fill:#539fb2;fill-opacity:1;stroke:none;stroke-width:13.31731796;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+          <text
+             id="text3155-2-4"
+             y="-189.82051"
+             x="1138.6566"
+             style="font-style:normal;font-weight:normal;font-size:40px;line-height:125%;font-family:Sans;letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+             xml:space="preserve"><tspan
+               style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:69.33333588px;font-family:Arial;-inkscape-font-specification:'Arial Bold';fill:#ffffff;fill-opacity:1"
+               y="-189.82051"
+               x="1138.6566"
+               id="tspan3153-0-96"
+               sodipodi:role="line">F</tspan></text>
+        </g>
+        <text
+           xml:space="preserve"
+           style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:74.66666412px;line-height:125%;font-family:Arial;-inkscape-font-specification:'Arial Bold';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+           x="1177.928"
+           y="3681.3789"
+           id="text1651-9-45-8-1-0-8-7-0-0-3-3-2-6-7-1-2-4"><tspan
+             sodipodi:role="line"
+             id="tspan1649-0-3-3-95-9-0-1-4-2-4-7-5-2-7-1-9-1"
+             x="1177.928"
+             y="3681.3789"
+             style="font-size:66.66666412px">Atlantic Eyrie Lodge</tspan></text>
+      </g>
+      <g
+         transform="translate(0,14.000013)"
+         id="g5510">
+        <g
+           transform="translate(-37.253412,3942.7857)"
+           id="g4637-0">
+          <rect
+             y="-124.73939"
+             x="1135.1814"
+             height="60"
+             width="60"
+             id="rect2925-33-3-4"
+             style="opacity:1;fill:#539fb2;fill-opacity:1;stroke:none;stroke-width:13.31731796;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+          <text
+             id="text3155-3-9"
+             y="-69.924286"
+             x="1140.2648"
+             style="font-style:normal;font-weight:normal;font-size:40px;line-height:125%;font-family:Sans;letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+             xml:space="preserve"><tspan
+               style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:69.33333588px;font-family:Arial;-inkscape-font-specification:'Arial Bold';fill:#ffffff;fill-opacity:1"
+               y="-69.924286"
+               x="1140.2648"
+               id="tspan3153-6-16"
+               sodipodi:role="line">H</tspan></text>
+        </g>
+        <text
+           xml:space="preserve"
+           style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:74.66666412px;line-height:125%;font-family:Arial;-inkscape-font-specification:'Arial Bold';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+           x="1177.7002"
+           y="3865.7676"
+           id="text1651-9-45-8-1-0-8-7-0-0-3-3-2-6-7-1-2-4-1"><tspan
+             sodipodi:role="line"
+             id="tspan1649-0-3-3-95-9-0-1-4-2-4-7-5-2-7-1-9-1-8"
+             x="1177.7002"
+             y="3865.7676"
+             style="font-size:66.66666412px">Wonder View Inn</tspan></text>
+      </g>
+      <rect
+         y="3106.7905"
+         x="1032.5304"
+         height="129.90851"
+         width="993.79053"
+         id="rect4871"
+         style="opacity:1;fill:#539fb2;fill-opacity:1;stroke:none;stroke-width:18.29117012;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+      <text
+         id="text1651-9-45-8-1-0-8-5"
+         y="3196.5137"
+         x="1131.1868"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:74.66666412px;line-height:125%;font-family:Arial;-inkscape-font-specification:'Arial Bold';letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         xml:space="preserve"><tspan
+           style="font-size:93.33333588px;fill:#ffffff;fill-opacity:1"
+           y="3196.5137"
+           x="1131.1868"
+           id="tspan1649-0-3-3-95-9-0-14"
+           sodipodi:role="line">Eden Street stops</tspan></text>
+      <g
+         id="g5852">
+        <g
+           transform="translate(-37.253412,3865.4382)"
+           id="g4637-0-4">
+          <rect
+             y="-124.73939"
+             x="1135.1814"
+             height="60"
+             width="60"
+             id="rect2925-33-3-4-5"
+             style="opacity:1;fill:#539fb2;fill-opacity:1;stroke:none;stroke-width:13.31731796;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+          <text
+             id="text3155-3-9-0"
+             y="-69.924286"
+             x="1140.2648"
+             style="font-style:normal;font-weight:normal;font-size:40px;line-height:125%;font-family:Sans;letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+             xml:space="preserve"><tspan
+               style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:69.33333588px;font-family:Arial;-inkscape-font-specification:'Arial Bold';fill:#ffffff;fill-opacity:1"
+               y="-69.924286"
+               x="1140.2648"
+               id="tspan3153-6-16-8"
+               sodipodi:role="line">G</tspan></text>
+        </g>
+        <text
+           xml:space="preserve"
+           style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:74.66666412px;line-height:125%;font-family:Arial;-inkscape-font-specification:'Arial Bold';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+           x="1177.7002"
+           y="3788.4199"
+           id="text1651-9-45-8-1-0-8-7-0-0-3-3-2-6-7-1-2-4-1-4"><tspan
+             sodipodi:role="line"
+             id="tspan1649-0-3-3-95-9-0-1-4-2-4-7-5-2-7-1-9-1-8-8"
+             x="1177.7002"
+             y="3788.4199"
+             style="font-size:66.66666412px">Hampton Inn Bar Harbor</tspan></text>
+      </g>
+      <g
+         transform="translate(0,20.61615)"
+         id="g5542">
         <rect
            style="opacity:1;fill:#539fb2;fill-opacity:1;stroke:none;stroke-width:13.31731796;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-           id="rect2925-33-0-9"
+           id="rect2925-33-29-6"
            width="60"
            height="60"
-           x="1116.9303"
-           y="-336.97498" />
+           x="1097.928"
+           y="3327.9863" />
         <text
            xml:space="preserve"
            style="font-style:normal;font-weight:normal;font-size:40px;line-height:125%;font-family:Sans;letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-           x="1124.8066"
-           y="-282.15988"
-           id="text3155-4-2"><tspan
+           x="1103.0282"
+           y="3382.8013"
+           id="text3155-1-1"><tspan
              sodipodi:role="line"
-             id="tspan3153-8-4"
-             x="1124.8066"
-             y="-282.15988"
-             style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:69.33333588px;font-family:Arial;-inkscape-font-specification:'Arial Bold';fill:#ffffff;fill-opacity:1">E</tspan></text>
+             id="tspan3153-58-2"
+             x="1103.0282"
+             y="3382.8013"
+             style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:69.33333588px;font-family:Arial;-inkscape-font-specification:'Arial Bold';fill:#ffffff;fill-opacity:1">D</tspan></text>
+        <text
+           xml:space="preserve"
+           style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:74.66666412px;line-height:125%;font-family:Arial;-inkscape-font-specification:'Arial Bold';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+           x="1177.928"
+           y="3376.5215"
+           id="text1651-9-45-8-1-0-8-7-0-0-3-3-2-6"><tspan
+             sodipodi:role="line"
+             id="tspan1649-0-3-3-95-9-0-1-4-2-4-7-5-2"
+             x="1177.928"
+             y="3376.5215"
+             style="font-size:66.66666412px">Atlantic Oceanside</tspan></text>
+        <text
+           xml:space="preserve"
+           style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:74.66666412px;line-height:125%;font-family:Arial;-inkscape-font-specification:'Arial Bold';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+           x="1173.0452"
+           y="3439.8704"
+           id="text1651-9-45-8-1-0-8-7-0-0-3-3-2-6-4"><tspan
+             sodipodi:role="line"
+             id="tspan1649-0-3-3-95-9-0-1-4-2-4-7-5-2-6"
+             x="1173.0452"
+             y="3439.8704"
+             style="font-size:66.66666412px">Bar Harbor Motel</tspan></text>
       </g>
-      <text
-         id="text1651-9-45-8-1-0-8-7-0-0-3-3-2-6-7-1-2"
-         y="3541.8643"
-         x="1177.928"
-         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:74.66666412px;line-height:125%;font-family:Arial;-inkscape-font-specification:'Arial Bold';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-         xml:space="preserve"><tspan
-           style="font-size:66.66666412px"
+      <g
+         transform="translate(0,-2.4000035)"
+         id="g5594">
+        <g
+           transform="translate(-19.002312,3831.118)"
+           id="g4621-2">
+          <rect
+             y="-336.97498"
+             x="1116.9303"
+             height="60"
+             width="60"
+             id="rect2925-33-0-9"
+             style="opacity:1;fill:#539fb2;fill-opacity:1;stroke:none;stroke-width:13.31731796;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+          <text
+             id="text3155-4-2"
+             y="-282.15988"
+             x="1124.8066"
+             style="font-style:normal;font-weight:normal;font-size:40px;line-height:125%;font-family:Sans;letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+             xml:space="preserve"><tspan
+               style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:69.33333588px;font-family:Arial;-inkscape-font-specification:'Arial Bold';fill:#ffffff;fill-opacity:1"
+               y="-282.15988"
+               x="1124.8066"
+               id="tspan3153-8-4"
+               sodipodi:role="line">E</tspan></text>
+        </g>
+        <text
+           xml:space="preserve"
+           style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:74.66666412px;line-height:125%;font-family:Arial;-inkscape-font-specification:'Arial Bold';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+           x="1177.928"
            y="3541.8643"
+           id="text1651-9-45-8-1-0-8-7-0-0-3-3-2-6-7-1-2"><tspan
+             sodipodi:role="line"
+             id="tspan1649-0-3-3-95-9-0-1-4-2-4-7-5-2-7-1-9"
+             x="1177.928"
+             y="3541.8643"
+             style="font-size:66.66666412px">Acadia Inn</tspan></text>
+        <text
+           xml:space="preserve"
+           style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:74.66666412px;line-height:125%;font-family:Arial;-inkscape-font-specification:'Arial Bold';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
            x="1177.928"
-           id="tspan1649-0-3-3-95-9-0-1-4-2-4-7-5-2-7-1-9"
-           sodipodi:role="line">Acadia Inn</tspan></text>
-      <text
-         id="text1651-9-45-8-1-0-8-7-0-0-3-3-2-6-7-1-2-0"
-         y="3606.3669"
-         x="1177.928"
-         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:74.66666412px;line-height:125%;font-family:Arial;-inkscape-font-specification:'Arial Bold';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-         xml:space="preserve"><tspan
-           style="font-size:66.66666412px"
            y="3606.3669"
-           x="1177.928"
-           id="tspan1649-0-3-3-95-9-0-1-4-2-4-7-5-2-7-1-9-7"
-           sodipodi:role="line">College of the Atlantic</tspan></text>
+           id="text1651-9-45-8-1-0-8-7-0-0-3-3-2-6-7-1-2-0"><tspan
+             sodipodi:role="line"
+             id="tspan1649-0-3-3-95-9-0-1-4-2-4-7-5-2-7-1-9-7"
+             x="1177.928"
+             y="3606.3669"
+             style="font-size:66.66666412px">College of the Atlantic</tspan></text>
+      </g>
     </g>
     <circle
        style="display:inline;opacity:1;fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:25px;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
@@ -3396,6 +3398,39 @@
              y="3848.0005"
              style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:74.66666412px;font-family:Arial;-inkscape-font-specification:'Arial Bold';text-align:center;text-anchor:middle;fill:#ffffff;fill-opacity:1">10</tspan></text>
       </g>
+    </g>
+    <g
+       id="g5917"
+       transform="translate(150.02421,212.70607)">
+      <g
+         transform="translate(-2165,-2745.0002)"
+         id="g5907"
+         style="display:inline">
+        <rect
+           style="opacity:1;fill:#e9fee1;fill-opacity:1;stroke:none;stroke-width:42.24313736;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:10.5607845, 10.5607845;stroke-dashoffset:0;stroke-opacity:1"
+           id="rect5820"
+           width="175"
+           height="50"
+           x="2245.8655"
+           y="6411.2954" />
+        <path
+           style="display:inline;fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#f3008e;stroke-width:50;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:12.5, 12.5;stroke-dashoffset:17.5;stroke-opacity:1"
+           d="m 2245.8655,6436.2952 175,2e-4"
+           id="path5224-6"
+           inkscape:connector-curvature="0"
+           sodipodi:nodetypes="cc" />
+      </g>
+      <text
+         id="text1651-9-45-8-1-0-8-7-0-0-3-3-2-6-7-1-2-4-1-4-2"
+         y="3714.7651"
+         x="287.14676"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:74.66666412px;line-height:125%;font-family:Arial;-inkscape-font-specification:'Arial Bold';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         xml:space="preserve"><tspan
+           style="font-size:66.66666412px"
+           y="3714.7651"
+           x="287.14676"
+           id="tspan1649-0-3-3-95-9-0-1-4-2-4-7-5-2-7-1-9-1-8-8-3"
+           sodipodi:role="line">Limited service</tspan></text>
     </g>
   </g>
   <g
