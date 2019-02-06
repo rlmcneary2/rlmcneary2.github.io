@@ -8,6 +8,15 @@ setTimeout(function () {
         ih += "com";
         e[i].innerHTML = ih;
     }
+
+    e = document.getElementsByClassName("mailto");
+    for (var i = 0; i < e.length; i++) {
+        var ih = "rich";
+        ih += "@";
+        ih += "limnous.";
+        ih += "com";
+        e[i].href = "mailto:" + ih;
+    }
 }, 200);
 
 
