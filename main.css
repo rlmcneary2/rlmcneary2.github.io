@@ -207,6 +207,10 @@ h1 > a {
     list-style: disc;
 }
 
+.content.below-menu {
+    margin-top: 50px;
+}
+
 main.content {
     display: block;
 }
@@ -293,4 +297,8 @@ main.content {
     .menu a.item {
         display: none;
     }
+}
+
+.blog-article-link {
+    font-style: italic;
 }

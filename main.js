@@ -56,7 +56,7 @@ window.addEventListener("scroll", function (evt) {
 
     lastScrollTop = currentScrollTop;
 
-    var m = document.getElementsByClassName("menu-container")[0];
+    var m = document.getElementsByClassName("menu-container-hideable")[0];
     if (!isIncrementing) {
         if (100 <= changeScrollTop - currentScrollTop || currentScrollTop === 0 && m.classList.contains(_HIDDEN_CLASS)) {
             m.classList.remove(_HIDDEN_CLASS);
