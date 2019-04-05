@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+<head>
+    <meta charset="utf-8" />
+    <meta description="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1.0, maximum-scale=1.0">
+    <meta name="author" content="Richard L. McNeary II">
+    <meta name="copyright" content="Richard L. McNeary II">
+    <meta name="keywords" content="rlmcneary2, Rich McNeary, Richard L. McNeary II, limnous, blog, react, npm, TypeScript, package">
+    <link href="https://fonts.googleapis.com/css?family=Yrsa:300|Karla:400,400i" rel="stylesheet">
+    <script src="https://use.fontawesome.com/a99dcc7c68.js"></script>
+    <link href="../reset.css" rel="stylesheet" type="text/css" />
+    <link href="../main.css" rel="stylesheet" type="text/css" />
+    <script src="../main.js"></script>
+    <title>limnous blog: Publishing an npm Package for React Components Written in TypeScript</title>
+</head>
+
+<body>
+    <div class="menu-container">
+        <header class="menu">
+            <h1 class="item"><a href="../index.html">Rich McNeary</a></h1>
+            <a class="item" href="https://islandexplorermap.com/"><img alt="My 'Acadia National Park Transit Map'" src="https://islandexplorermap.com/docs/192x192_bw.png" title="My 'Acadia National Park Transit Map'" height="17.5px" width="17.5px" style="margin-top: 2px;" /></span></a>
+            <a class="item" href="https://github.com/rlmcneary2/"><span class="fa fa-github fa-2x" title="GitHub Profile"></span></a>
+            <a class="item" href="https://www.linkedin.com/in/rlmcneary2/"><span class="fa fa-linkedin fa-2x" title="LinkedIn Profile"></span></a>
+            <a class="item" href="https://www.flickr.com/photos/rlmcneary2/"><span class="fa fa-flickr fa-2x" title="Flickr Profile"></span></a>
+            <a class="item" href="../blog/index.html"><span class="fa fa-pencil fa-2x" title="blog"></a>
+            <div class="item text"><span class="replace"></span></div>
+        </header>
+    </div>
+    <main class="content below-menu">
+        <section>
+            <figure title="Man in Indonesia pushing a delivery tricycle loaded with packages.">
+                <img alt="Man in Indonesia pushing a delivery tricycle loaded with packages." height="1157" src="./images/npm-react-typescript.jpg" width="1920" />
+                <!-- <figcaption>Progressively rebuilding Big Ben. photo by: <a href="https://unsplash.com/@cloudypixel">@cloudypixel</a></figcaption> -->
+                <a style="background-color:black;color:white;text-decoration:none;padding:4px 6px;font-family:-apple-system, BlinkMacSystemFont, &quot;San Francisco&quot;, &quot;Helvetica Neue&quot;, Helvetica, Ubuntu, Roboto, Noto, &quot;Segoe UI&quot;, Arial, sans-serif;font-size:12px;font-weight:bold;line-height:1.2;display:inline-block;border-radius:3px" href="https://unsplash.com/@yusrilali?utm_medium=referral&amp;utm_campaign=photographer-credit&amp;utm_content=creditBadge" target="_blank" rel="noopener noreferrer" title="Download free do whatever you want high-resolution photos from Yusril Permana ali"><span style="display:inline-block;padding:2px 3px"><svg xmlns="http://www.w3.org/2000/svg" style="height:12px;width:auto;position:relative;vertical-align:middle;top:-2px;fill:white" viewBox="0 0 32 32"><title>unsplash-logo</title><path d="M10 9V0h12v9H10zm12 5h10v18H0V14h10v9h12v-9z"></path></svg></span><span style="display:inline-block;padding:2px 3px">Yusril Permana ali</span></a>
+            </figure>
+            <h1>How to: An npm Package of React Components Written in TypeScript</h1>
+            <time>April 5, 2019</time>
+            <p>
+                Creating an npm package of React components written in TypeScript was a challenge, here's how I did it for <a href="https://github.com/rlmcneary2/react-modal-queue">react-modal-queue</a>. While creating the package there were several goals I had in mind:
+            </p>
+            <ul>
+                <li>Code written in TypeScript. I find TS helpful because as projects grow it's much easier to keep track of Objects' data and associated code while still allowing the flexibility of JavaScript when needed.</li>
+                <li>Include TypeScript declaration files in the package to improve code completion support for consumers of the package, especially when using VS Code.</li>
+                <li>The package needed to be consumable through: the ES2015 <code class="inline">import</code> statement, a <code class="inline">link</code> tag in HTML, and UNPKG to support online coding web sites like Codepen.</li>
+            </ul>
+
+            <h2>Prevent Duplicate Packages</h2>
+            <p>
+                One of the first problems I ran into during testing was duplicate copies of React; this happened because react-modal-queue imported React and so did the application. The solution was to make React and its related packages "peer dependencies" in react-modal-queue. This actually involved two changes. First  moving "react" and "prop-types" so they were only under the <code class="inline">peerDependencies</code> property of "package.json". Second marking them as <code class="inline">externals</code> in the Webpack configuration:
+                <div class="stackedit__html"><pre class="language-javascript"><code class="prism language-javascript">externals<span class="token punctuation">:</span> <span class="token punctuation">[</span><span class="token punctuation">{</span>
+  <span class="token string">"prop-types"</span><span class="token punctuation">:</span> <span class="token punctuation">{</span>
+    commonjs<span class="token punctuation">:</span> <span class="token string">"prop-types"</span><span class="token punctuation">,</span>
+    commonjs2<span class="token punctuation">:</span> <span class="token string">"prop-types"</span><span class="token punctuation">,</span>
+    amd<span class="token punctuation">:</span> <span class="token string">"prop-types"</span><span class="token punctuation">,</span>
+    root<span class="token punctuation">:</span> <span class="token string">"PropTypes"</span>
+  <span class="token punctuation">}</span><span class="token punctuation">,</span>
+  react<span class="token punctuation">:</span> <span class="token punctuation">{</span>
+    commonjs<span class="token punctuation">:</span> <span class="token string">"react"</span><span class="token punctuation">,</span>
+    commonjs2<span class="token punctuation">:</span> <span class="token string">"react"</span><span class="token punctuation">,</span>
+    amd<span class="token punctuation">:</span> <span class="token string">"react"</span><span class="token punctuation">,</span>
+    root<span class="token punctuation">:</span> <span class="token string">"React"</span>
+  <span class="token punctuation">}
+</span><span class="token punctuation">}</span><span class="token punctuation">]</span></code></pre>
+                </div>
+            </p>
+
+            <h2>Configuring tsc</h2>
+            <p>
+                When working with TypeScript files my preferred usage of tsc is simply to clean up the TypeScript syntax leaving only JavaScript code; later Babel will be used to transpile ES20XX code to ES3. tsc will also be used in a separate step to generate the declaration files (*.d.ts) that will be included in the package to define types. I configured tsc to remove TypeScript syntax elements in the tsconfig file by setting <code class="inline">jsx</code> to "preserve" and <code class="inline">module</code> and <code class="inline">target</code> to the same module type (I used "esnext"). I removed <code class="inline">declaration</code> (the need for declaration files will be specified on the command line). The output of the tsc clean up step is placed into a temporary directory named "tsc-temp." The declaration files are output to the "dist" directory.
+            </p>
+
+            <h2>Transpiling using Babel</h2>
+            <p>
+                The <a href="https://babeljs.io/">Babel</a> package is used to transpile from the code generated by tsc to another ECMAScript version; this might be ES3 or you might target specific browser versions using the Babel preset-env's <code class="inline">targets</code> property. For Babel 7 you must also set preset-env's <code class="inline">modules</code> property to "false" otherwise modules with <code class="inline">export default</code> followed by a function will result in a module with no exports. The inputs for Babel are the files in the "tsc-temp" directory that were created previously by tsc. I set the output location for Babel as the packages's "dist" directory. This is the directory that will be accessed when the package is used via an <code class="inline">import</code> statement because the "package.json" <code class="inline">main</code> property points to a file in "dist." Now if the application that consumes react-modal-queue is built using Webpack only the files that are actually used will be included in the application package file.
+            </p>
+
+            <h2>Generate a library file with Webpack</h2>
+            <p>
+                I also wanted to include a single file that could be used by other module systems, or no modules at all so I setup Webpack to output a library file that supports commonjs, AMD, and UMD. Another benefit of generating the library is that now the package can be used with <a href="https://unpkg.com/">UNPKG</a>. UNPKG is especially useful because it makes npm packages available for use in online code editing sites like Codepen through a <code class="inline">link</code> element in the <code class="inline">head</code> of an HTML document. According to the UNPKG documentation it requires a UMD library to exist in a subdirectory of your package's root and the subdirectory must be named "umd". I altered the Webpack configuration so its entry point used the files generated by Babel in "dist" during the transpile step and output the library file to the "umd" directory.
+                <div class="stackedit__html"><pre class=" language-javascript"><code class="prism  language-javascript">entry<span class="token punctuation">:</span> <span class="token punctuation">{</span>
+    index<span class="token punctuation">:</span> <span class="token template-string"><span class="token string">"./dist/index.js"</span></span>
+<span class="token punctuation">}</span><span class="token punctuation">,</span>
+output<span class="token punctuation">:</span> <span class="token punctuation">{</span>
+  filename<span class="token punctuation">:</span> <span class="token template-string"><span class="token string">`</span><span class="token interpolation"><span class="token interpolation-punctuation punctuation">${</span>_MODULE_NAME<span class="token interpolation-punctuation punctuation">}</span></span><span class="token interpolation"><span class="token interpolation-punctuation punctuation">${</span>mode <span class="token operator">===</span> <span class="token string">"production"</span> <span class="token operator">?</span> <span class="token string">".min"</span> <span class="token punctuation">:</span> <span class="token string">""</span><span class="token interpolation-punctuation punctuation">}</span></span><span class="token string">.js`</span></span><span class="token punctuation">,</span>
+  globalObject<span class="token punctuation">:</span>  <span class="token string">"(typeof self !== 'undefined' ? self : this)"</span><span class="token punctuation">,</span> <span class="token comment">// temporary workaround for https://github.com/webpack/webpack/issues/6642</span>
+  library<span class="token punctuation">:</span> <span class="token punctuation">{</span> amd<span class="token punctuation">:</span> _MODULE_NAME<span class="token punctuation">,</span> commonjs<span class="token punctuation">:</span> _MODULE_NAME<span class="token punctuation">,</span> root<span class="token punctuation">:</span> <span class="token string">"ReactModalQueue"</span> <span class="token punctuation">}</span><span class="token punctuation">,</span>
+  libraryTarget<span class="token punctuation">:</span> <span class="token string">"umd"</span><span class="token punctuation">,</span>
+  path<span class="token punctuation">:</span> path<span class="token punctuation">.</span><span class="token function">resolve</span><span class="token punctuation">(</span>__dirname<span class="token punctuation">,</span> <span class="token string">"umd"</span><span class="token punctuation">)</span><span class="token punctuation">,</span>
+  umdNamedDefine<span class="token punctuation">:</span> <span class="token boolean">true</span>
+<span class="token punctuation">}</span></code></pre>
+  </div>
+            </p>
+
+            <h2>Define the package's files</h2>
+            <p>
+                Now that there were defined processes to create all the required files, "package.json" needed to be updated to include them. I simply created the <code class="inline">files</code> property and included the two output directories: <code class="inline">"files": ["dist", "umd"]</code>.
+            </p>
+
+            <h2>Building the package</h2>
+            <p>
+                To actually build the files that make up the package the following steps happen in order:
+            </p>
+            <ol>
+                <li>Clean the "dist" and "umd" directories using <a href="https://www.npmjs.com/package/rimraf">rimraf</a>.</li>
+                <li>Convert from TypeScript to JavaScript using tsc.</li>
+                <li>Generate TypeScript definition files using tsc.</li>
+                <li>Transpile the converted files using Babel.</li>
+                <li>Generate a debug version of the library.</li>
+                <li>Generate a production version of the library.</li>
+            </ol>
+            <p>
+                The steps are accomplished using a script named "build" in "package.json." The "build" script is a combination of other scripts - each one accomplishes one of the tasks defined above. There is also a "debug" task that can be used during development to import the package into a host application using a link.
+<div class="stackedit__html"><pre class=" language-javascript"><code class="prism  language-javascript"><span class="token string">"scripts"</span><span class="token punctuation">:</span> <span class="token punctuation">{</span>
+  <span class="token string">"babel"</span><span class="token punctuation">:</span> <span class="token string">"babel tsc-temp --out-dir dist"</span><span class="token punctuation">,</span>
+  <span class="token string">"build"</span><span class="token punctuation">:</span> <span class="token string">"npm run clean &amp;&amp; npm run tsc &amp;&amp; npm run tsc-declaration &amp;&amp; npm run babel &amp;&amp; npm run lib-debug &amp;&amp; npm run lib-production"</span><span class="token punctuation">,</span>
+  <span class="token string">"clean"</span><span class="token punctuation">:</span> <span class="token string">"rimraf ./dist ./tsc-temp ./umd"</span><span class="token punctuation">,</span>
+  <span class="token string">"debug"</span><span class="token punctuation">:</span> <span class="token string">"npm run clean &amp;&amp; npm run tsc &amp;&amp; npm run tsc-declaration &amp;&amp; npm run babel &amp;&amp; npm link"</span><span class="token punctuation">,</span>
+  <span class="token string">"tsc"</span><span class="token punctuation">:</span> <span class="token string">"tsc --outDir tsc-temp"</span><span class="token punctuation">,</span>
+  <span class="token string">"tsc-declaration"</span><span class="token punctuation">:</span> <span class="token string">"tsc --declaration --emitDeclarationOnly --outDir dist"</span><span class="token punctuation">,</span>
+  <span class="token string">"test"</span><span class="token punctuation">:</span> <span class="token string">"echo \"No tests.\""</span><span class="token punctuation">,</span>
+  <span class="token string">"lib-debug"</span><span class="token punctuation">:</span> <span class="token string">"webpack --config webpack-lib.config.js"</span><span class="token punctuation">,</span>
+  <span class="token string">"lib-production"</span><span class="token punctuation">:</span> <span class="token string">"webpack --config webpack-lib.config.js --env.NODE_ENV=production"</span>
+<span class="token punctuation">}</code></pre>
+    </div>
+            </p>
+    
+            <h2>Publishing and debugging</h2>
+            <p>
+                When it's time to publish the package I like using <a href="https://www.npmjs.com/package/np">np</a> which helps minimize errors. It also automates several tasks such as choosing a semver string, adding tags in git, and creating release notes in Github.
+            </p>
+            <p>
+                For integration debugging the package can be imported into a host using <a href="https://docs.npmjs.com/cli/link">npm link</a>. The first step is to run <code class="inline">npm link</code> from the package's root directory (where "package.json" is located). The second step is to move into the host project's root directory and run the command again but include the package name at the end: <code class="inline">npm link react-modal-queue</code>. The downside is that when your package is rebuilt the link will be broken and both steps will need to be run again (creating the link is done automatically by the "debug" script above). There are other ways to import your package, they all have benefits and drawbacks.
+            </p>
+            <p>
+                So now go ahead and create npm packages for React using TypeScript!
+            </p>
+        </section>
+    </main>
+    <footer class="footer">
+        <a class="item" href="https://islandexplorermap.com/"><img alt="My 'Acadia National Park Transit Map'" src="https://islandexplorermap.com/docs/192x192_bw.png" title="My 'Acadia National Park Transit Map'" height="34.29px" width="34.29px" style="margin-top: 3px;" /></span></a>
+        <a href="https://github.com/rlmcneary2/"><span class="fa fa-github fa-4x" title="GitHub Profile"></span></a>
+        <a href="https://www.linkedin.com/in/rlmcneary2/"><span class="fa fa-linkedin fa-4x" title="LinkedIn Profile"></span></a>
+        <a href="https://www.flickr.com/photos/rlmcneary2/"><span class="fa fa-flickr fa-4x" title="Flickr Profile"></span></a>
+    </footer>
+</body>
+
+</html>
