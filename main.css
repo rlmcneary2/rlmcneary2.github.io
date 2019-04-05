@@ -13,6 +13,15 @@ body {
     width: 100%;
 }
 
+code.inline {
+    background-color: rgba(0, 0, 0, .05);
+    border: 0 solid black;
+    border-radius: 3px;
+	font-family: Roboto Mono, Lucida Sans Typewriter, Lucida Console, monaco, Courrier, monospace;
+    font-size: 0.85em;
+    padding: 3px;
+}
+
 figcaption {
     font-family: "Karla", sans-serif;
     font-size: 125%;
@@ -22,6 +31,11 @@ figcaption {
 h1 {
     font-family: sans-serif;
     font-size: 225%;
+}
+
+h2 {
+    font-weight: bold;
+    margin: 30px 0 0 0;
 }
 
 ol {
@@ -153,12 +167,12 @@ h1 > a {
 
 .content h1, .content h2 {
     font-family: "Karla", sans-serif;
-    letter-spacing: -1px;
     line-height: 1.4;
 }
 
 .content h1 {
     font-size: 2.6em;
+    letter-spacing: -1px;
 }
 
 .content h2 {
@@ -180,11 +194,15 @@ h1 > a {
     max-height: 200px;
 }
 
-.content p, .content time, .content ul {
+.content p, .content time, .content ul, .content ol {
     font-family: "Karla", sans-serif;
     font-size: 1.8em;
-    letter-spacing: -0.5px;
+    /* letter-spacing: -0.5px; */
     line-height: 1.4;
+}
+
+.content ol {
+    margin-bottom: 15px;
 }
 
 .content p + p {
@@ -299,6 +317,131 @@ main.content {
     }
 }
 
-.blog-article-link {
-    font-style: italic;
+/* Stackedit code snippets ***************************************************/
+
+pre {
+	font-family: Roboto Mono, Lucida Sans Typewriter, Lucida Console, monaco, Courrier, monospace;
+	font-size: 1.6em;
+}
+
+pre > code {
+    background-color: rgba(0, 0, 0, .05);
+    border: 0 solid black;
+    border-radius: 3px;
+	display: block;
+	padding: .5em;
+	-webkit-text-size-adjust: none;
+	overflow-x: auto;
+	white-space: pre;
+}
+
+.stackedit__html {
+    line-height: 1.4;
+    margin: 20px 0 20px 0;
+}
+
+.prism *,
+.token.pre.gfm * {
+    font-weight: inherit !important
+}
+
+.prism .token.cdata,
+.prism .token.comment,
+.prism .token.doctype,
+.prism .token.prolog,
+.token.pre.gfm .token.cdata,
+.token.pre.gfm .token.comment,
+.token.pre.gfm .token.doctype,
+.token.pre.gfm .token.prolog {
+    color: #708090
+}
+
+.prism .token.punctuation,
+.token.pre.gfm .token.punctuation {
+    color: #999
+}
+
+.prism .namespace,
+.token.pre.gfm .namespace {
+    opacity: .7
+}
+
+.prism .token.boolean,
+.prism .token.constant,
+.prism .token.deleted,
+.prism .token.number,
+.prism .token.property,
+.prism .token.symbol,
+.prism .token.tag,
+.token.pre.gfm .token.boolean,
+.token.pre.gfm .token.constant,
+.token.pre.gfm .token.deleted,
+.token.pre.gfm .token.number,
+.token.pre.gfm .token.property,
+.token.pre.gfm .token.symbol,
+.token.pre.gfm .token.tag {
+    color: #905
+}
+
+.prism .token.attr-name,
+.prism .token.builtin,
+.prism .token.char,
+.prism .token.inserted,
+.prism .token.selector,
+.prism .token.string,
+.token.pre.gfm .token.attr-name,
+.token.pre.gfm .token.builtin,
+.token.pre.gfm .token.char,
+.token.pre.gfm .token.inserted,
+.token.pre.gfm .token.selector,
+.token.pre.gfm .token.string {
+    color: #690
+}
+
+.prism .language-css .token.string,
+.prism .style .token.string,
+.prism .token.entity,
+.prism .token.operator,
+.prism .token.url,
+.token.pre.gfm .language-css .token.string,
+.token.pre.gfm .style .token.string,
+.token.pre.gfm .token.entity,
+.token.pre.gfm .token.operator,
+.token.pre.gfm .token.url {
+    color: #a67f59
+}
+
+.prism .token.atrule,
+.prism .token.attr-value,
+.prism .token.keyword,
+.token.pre.gfm .token.atrule,
+.token.pre.gfm .token.attr-value,
+.token.pre.gfm .token.keyword {
+    color: #07a
+}
+
+.prism .token.function,
+.token.pre.gfm .token.function {
+    color: #dd4a68
+}
+
+.prism .token.important,
+.prism .token.regex,
+.prism .token.variable,
+.token.pre.gfm .token.important,
+.token.pre.gfm .token.regex,
+.token.pre.gfm .token.variable {
+    color: #e90
+}
+
+.prism .token.bold,
+.prism .token.important,
+.token.pre.gfm .token.bold,
+.token.pre.gfm .token.important {
+    font-weight: 500
+}
+
+.prism .token.italic,
+.token.pre.gfm .token.italic {
+    font-style: italic
 }
